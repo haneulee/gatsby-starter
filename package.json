@@ -1,0 +1,16 @@
+{
+    "name": "gatsby-starter",
+    "description": "It's a gatsby tutorial project. ",
+    "license": "MIT",
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "npm run develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve"
+      },
+    "dependencies": {
+        "gatsby": "^2.0.64",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    }
+}
