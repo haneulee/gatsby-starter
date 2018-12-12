@@ -7,10 +7,15 @@
         "start": "npm run develop",
         "build": "gatsby build",
         "serve": "gatsby serve"
-      },
+    },
     "dependencies": {
         "gatsby": "^2.0.64",
+        "gatsby-plugin-typography": "^2.2.2",
         "react": "^16.6.3",
-        "react-dom": "^16.6.3"
+        "react-dom": "^16.6.3",
+        "react-typography": "^0.16.18",
+        "typography": "^0.16.18",
+        "typography-theme-bootstrap": "^0.16.18",
+        "typography-theme-lawton": "^0.16.18"
     }
 }
