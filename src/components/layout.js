@@ -2,6 +2,7 @@ import React from "react";
 import { css } from "@emotion/core";
 import { StaticQuery, Link, graphql } from "gatsby";
 import { rhythm } from "../utils/typography";
+import { Helmet } from "react-helmet";
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -32,6 +33,11 @@ export default ({ children }) => (
           padding-top: ${rhythm(1.5)};
         `}
       >
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>gatsby tutorial site</title>
+          <link rel="canonical" href="http://haneulee.github.io" />
+        </Helmet>
         <header style={{ marginBottom: `1.5rem` }}>
           <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
             <h3 style={{ display: `inline` }}>{data.site.siteMetadata.title}</h3>
