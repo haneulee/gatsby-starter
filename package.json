@@ -16,6 +16,7 @@
         "react-typography": "^0.16.18",
         "typography": "^0.16.18",
         "typography-theme-bootstrap": "^0.16.18",
+        "typography-theme-fairy-gates": "^0.16.18",
         "typography-theme-lawton": "^0.16.18"
     }
 }
